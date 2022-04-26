@@ -1,0 +1,26 @@
+In this weeks assignment you need to simulate the railroad network as discussed in 
+class. The details are as given below.
+
+There are two stations A and B. The trains ( 5 of them ) ply between them back and 
+forth. There are 3 stations in between A and B. The track layout at the station 
+facilitates switching of trains between the parallel tracks. You may place signals 
+at appropriate points along the track to coordinate the movement of trains.
+
+The signal posts and trains are concurrent threads with act pretty much 
+independently of each other and coordinate via the signal lights.  Simulate this 
+concurrent environment. You are required to generate timestamped traces for all 
+the actions done by all concurrent agents. There is no global time but you may 
+assume that the local clock may be off by at most, say T, minutes.
+
+Prove some desirable properties that your program possess (Like deadlock avoidance, 
+freeness etc) in addition to mutual exclusion. (Lack of mutual exclusion 
+essentially means that the trains reach too close for comfort!)
+
+
+ 
+
+
+
+
+
+
